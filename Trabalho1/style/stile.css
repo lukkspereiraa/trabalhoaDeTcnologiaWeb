@@ -1,0 +1,72 @@
+:root{
+    --cor-Principal:#364385 ;
+    --fonte-menu: 'Courier New', Courier, monospace;
+    --fonte-body: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    --sombra: rgba(0, 0, 0, 0.179);
+}
+.cabecalho{
+    background-color: var(--cor-Principal);
+    height: 8vh;
+    font-family: var(--fonte-menu)
+}
+.menu{
+    display: flex;
+   
+}
+li{
+  margin: 15px;
+  padding: 5px;
+}
+a{
+    color: aliceblue;
+}
+.conteudo{
+    font-family: var(--fonte-body);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 ;
+    font-weight: 800;
+    font-size: 30px;
+}
+.texto{
+    font-size: 20px;
+    margin: 0 0 0 10px;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+   
+    margin: 13vh 0;
+}
+.image{
+    border-radius: 20px;
+    margin: 3vw;
+}
+.videios{
+   display: flex;
+   justify-content: center;
+   margin: 8.6vh;
+}
+.video{
+    width: 40vw;
+    height: 45vh;
+}
+.roda-pe{
+ background-color: var(--cor-Principal);
+ display: flex;
+ justify-content: center;
+ padding: 1vw;
+}
+.conteudo-roda-pe{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 1000;
+}
+li:hover{
+    background-color: var(--sombra);
+}
+.image:hover{
+    background-color: var(--sombra);
+}
